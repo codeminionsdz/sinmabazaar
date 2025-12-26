@@ -137,12 +137,12 @@ function ProductsContent({ language }: { language: Language }) {
             <Link key={product.id} href={`/products/${product.id}`}>
               <Card className="border-border hover:shadow-lg hover:border-primary transition-all cursor-pointer h-full">
                 <CardHeader className="pb-4">
-                  <div className="w-full h-40 bg-secondary rounded-lg flex items-center justify-center mb-4 overflow-hidden">
+                  <div className="w-full h-48 bg-secondary rounded-lg flex items-center justify-center mb-4 overflow-hidden">
                     {productImages[product.id] ? (
                       <img
                         src={productImages[product.id] || "/placeholder.svg"}
                         alt={product.name}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                         onError={(e) => {
                           ;(e.target as HTMLImageElement).style.display = "none"
                         }}
