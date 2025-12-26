@@ -8,7 +8,7 @@ export const languages: Record<Language, { name: string; dir: "rtl" | "ltr" }> =
 
 export const translations: Record<Language, Record<string, string>> = {
   ar: {
-    "app.title": "سينما بازار",
+    "app.title": "سينما مونديال بازار",
     "app.tagline": "متجر بازار متخصص في الملابس النسائية والأدوات المطبخية والإكسسوارات",
     "nav.home": "الرئيسية",
     "nav.products": "المنتجات",
@@ -43,8 +43,8 @@ export const translations: Record<Language, Record<string, string>> = {
     "order.delivered": "تم التسليم",
   },
   en: {
-    "app.title": "SINMA BAZAAR",
-    "app.tagline": "A local bazaar store specialized in women's clothing, kitchenware, and accessories",
+    "app.title": "SINMA MONDIAL BAZAAR",
+    "app.tagline": "A mondial bazaar store specialized in women's clothing, kitchenware, and accessories",
     "nav.home": "Home",
     "nav.products": "Products",
     "nav.cart": "Cart",

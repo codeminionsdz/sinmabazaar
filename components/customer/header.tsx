@@ -28,7 +28,7 @@ export function Header({ language, onLanguageChange }: HeaderProps) {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 flex-shrink-0">
             <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <span className="text-primary-foreground font-bold text-lg">S</span>
+              <span className="text-primary-foreground font-bold text-lg">SM</span>
             </div>
             <div>
               <h1 className="text-xl font-bold text-primary">{t("app.title", language)}</h1>

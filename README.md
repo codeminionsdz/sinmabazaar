@@ -1,4 +1,4 @@
-# SINMA BAZAAR 🛍️
+# SINMA MONDIAL BAZAAR 🛍️
 
 A modern e-commerce platform specialized in women's clothing, kitchenware, and accessories.
 

@@ -255,7 +255,7 @@ export default function AdminDashboard() {
       <header className="bg-card border-b border-border sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
           <div>
-            <h1 className="text-2xl font-bold text-primary">SINMA BAZAAR</h1>
+            <h1 className="text-2xl font-bold text-primary">SINMA MONDIAL BAZAAR</h1>
             <p className="text-sm text-muted-foreground">Admin Dashboard</p>
           </div>
           <Button variant="outline" onClick={handleLogout} className="border-border bg-transparent">
@@ -268,7 +268,7 @@ export default function AdminDashboard() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="mb-8">
           <h2 className="text-3xl font-bold text-foreground mb-2">Dashboard</h2>
-          <p className="text-muted-foreground">Welcome to the SINMA BAZAAR admin panel</p>
+          <p className="text-muted-foreground">Welcome to the SINMA MONDIAL BAZAAR admin panel</p>
         </div>
 
         {error && (
